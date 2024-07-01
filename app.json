@@ -19,6 +19,12 @@
       "required" :false
     },   
      
+    "CAPTION": {
+      "description": "POWERED BY MESSAGE",
+      "value": "POWERED BY",
+      "required" :false
+    },   
+     
     "AUTO_READ_STATUS": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
       "value": "true",
