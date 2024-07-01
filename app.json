@@ -9,14 +9,51 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "V.I.D.U.S.H.A.N.🤟",
       "required" :true
     },   
      
     "CAN_WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "false",
+      "required" :false
+    },   
+     
+    "AUTO_READ_STATUS": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
       "value": "true",
       "required" :false
+    },   
+     
+    "AUTO_SAVE_STATUS": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "true",
+      "required" :false
+    },   
+     
+    "LEVEL_UP_MESSAGE": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "false",
+      "required" :false
+    },   
+     
+    "READ_COMMAND": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "true",
+      "required" :false
+    },   
+     
+    "READ_MESSAGE": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "true",
+      "required" :false
+    },   
+     
+    "WAPRESENCE": {
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for always online and virtual typing) | 'recording'(for always online and virtual recording audio) | 'paused' ",
+      "value": "recording",
+      "required" :false
+      
     },
      
     "CAN_GOODBYE": {
@@ -32,7 +69,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "Asia/coolombo"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
@@ -46,7 +83,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "HRKU-236d1961-6d8c-4c84-8c0a-2819a945e013",
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
@@ -65,7 +102,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "94789178809"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -79,12 +116,12 @@
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
-      "value": "",
+      "value": "3e57046161ccf9ac1f4b9e03828a5fe9",
       "required" :false
     }, 
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "",
+      "value": "DJwc34NaWmhXmDxEeh6YUEmm",
       "required" :false
     },
     "MODE": {
